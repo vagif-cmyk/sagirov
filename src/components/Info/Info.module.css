@@ -1,0 +1,144 @@
+.root {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 174px;
+    height: 174px;
+}
+
+.incline1 {
+    position: relative;
+    z-index: 1000;
+    background: linear-gradient(318deg, rgba(58, 56, 56, 0.3) 0%, rgba(40, 40, 40, 0) 50%, rgba(0, 0, 0, 0) 100%);
+    transition: all .3s ease;
+}
+
+.incline1::after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+
+    border: 2px solid transparent;
+    border-image: linear-gradient(318deg, #585b62 0%, transparent 50%, transparent 100%);
+    border-image-slice: 1;
+    background: linear-gradient(318deg, rgba(100, 100, 100, 0.3) 0%, rgba(40, 40, 40, 0) 50%, rgba(0, 0, 0, 0) 100%);
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+    z-index: -1000;
+}
+
+.incline1:hover::after {
+    opacity: 1;
+}
+
+.incline2 {
+    border: 1px solid transparent;
+    background: linear-gradient(48deg, rgba(58, 56, 56, 0.3) 0%, rgba(40, 40, 40, 0) 50%, rgba(0, 0, 0, 0) 100%);
+    transition: all .3s ease;
+}
+
+.incline2::after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+
+    border: 2px solid transparent;
+    border-image: linear-gradient(48deg, #585b62 0%, transparent 50%, transparent 100%);
+    border-image-slice: 1;
+    background: linear-gradient(48deg, rgba(100, 100, 100, 0.3) 0%, rgba(40, 40, 40, 0) 50%, rgba(0, 0, 0, 0) 100%);
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+    z-index: -1000;
+}
+
+.incline2:hover::after {
+    opacity: 1;
+}
+
+.incline3 {
+    border: 1px solid transparent;
+    background: linear-gradient(226deg, rgba(58, 56, 56, 0.3) 0%, rgba(40, 40, 40, 0) 50%, rgba(0, 0, 0, 0) 100%);
+    transition: all .3s ease;
+}
+
+.incline3::after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+
+    border: 2px solid transparent;
+    border-image: linear-gradient(226deg, #585b62 0%, transparent 50%, transparent 100%);
+    border-image-slice: 1;
+    background: linear-gradient(226deg, rgba(100, 100, 100, 0.3) 0%, rgba(40, 40, 40, 0) 50%, rgba(0, 0, 0, 0) 100%);
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+    z-index: -1000;
+}
+
+.incline3:hover::after {
+    opacity: 1;
+}
+
+.incline4 {
+    border: 1px solid transparent;
+    background: linear-gradient(140deg, rgba(58, 56, 56, 0.3) 0%, rgba(40, 40, 40, 0) 50%, rgba(0, 0, 0, 0) 100%);
+    transition: all .3s ease;
+}
+
+.incline4::after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 2px solid transparent;
+    border-image: linear-gradient(140deg, #585b62 0%, transparent 50%, transparent 100%);
+    border-image-slice: 1;
+    background: linear-gradient(140deg, rgba(100, 100, 100, 0.3) 0%, rgba(40, 40, 40, 0) 50%, rgba(0, 0, 0, 0) 100%);
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+    z-index: -1000;
+}
+
+.incline4:hover::after {
+    opacity: 1;
+}
+
+.top, .bottom {
+    font-size: 18px;
+    color: #bcbcbc;
+}
+
+.top {
+    margin-bottom: 20px;
+}
+
+.title {
+    font-weight: 800;
+    font-size: 42px;
+    line-height: 1;
+    color: #bcbcbc;
+}
+
+@media (max-width: 370px) {
+    .root {
+        width: 140px;
+        height: 140px;
+    }
+  }
