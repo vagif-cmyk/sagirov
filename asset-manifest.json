@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/vagif-cmyk/sagirov.github.io/static/css/main.1cda6b49.css",
-    "main.js": "/vagif-cmyk/sagirov.github.io/static/js/main.5fdb7fc7.js",
-    "static/media/main.jpg": "/vagif-cmyk/sagirov.github.io/static/media/main.0af9b78811302c1cd9e1.jpg",
-    "index.html": "/vagif-cmyk/sagirov.github.io/index.html",
-    "main.1cda6b49.css.map": "/vagif-cmyk/sagirov.github.io/static/css/main.1cda6b49.css.map",
-    "main.5fdb7fc7.js.map": "/vagif-cmyk/sagirov.github.io/static/js/main.5fdb7fc7.js.map"
+    "main.css": "/sagirov.github.io/static/css/main.77d56c22.css",
+    "main.js": "/sagirov.github.io/static/js/main.5fdb7fc7.js",
+    "static/media/main.jpg": "/sagirov.github.io/static/media/main.0af9b78811302c1cd9e1.jpg",
+    "index.html": "/sagirov.github.io/index.html",
+    "main.77d56c22.css.map": "/sagirov.github.io/static/css/main.77d56c22.css.map",
+    "main.5fdb7fc7.js.map": "/sagirov.github.io/static/js/main.5fdb7fc7.js.map"
   },
   "entrypoints": [
-    "static/css/main.1cda6b49.css",
+    "static/css/main.77d56c22.css",
     "static/js/main.5fdb7fc7.js"
   ]
 }
